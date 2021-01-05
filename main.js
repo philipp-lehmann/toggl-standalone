@@ -14,6 +14,8 @@ function createWindow() {
 		minWidth: 1024,
 		minHeight: 720,
 		webviewTag: true,
+		transparent: true, 
+		frame: false,
 		titleBarStyle: 'hiddenInset',
 		webPreferences: {
 			preload: path.join(__dirname, 'preload.js'),
